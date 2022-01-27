@@ -1,0 +1,23 @@
+title: In Brief
+description: >
+  A series of brief but detailed examinations of various aspects of Creation,
+  for _Exalted_ 3rd Edition, by Onyx Path Publishing and White Wolf.
+baseurl: "/in-brief" # subpath
+url: "" # base hostname
+github_username: ElectronSutra
+
+# Template settings
+remote_theme: pmarsceill/just-the-docs
+plugins:
+  - jekyll-feed
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
